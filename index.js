@@ -10,13 +10,13 @@ const client = new Client({
   fromMe: false, 
   owners: [
   // Owner 1
-    { name: "VA", lid: "201111744021@lid", jid: "201111744021@s.whatsapp.net" },
+    { name: "VA", lid: "221307316789354@lid", jid: "972569311531@s.whatsapp.net" },
   // Owner 2
-    { name: "emam", lid: "201111744021@lid", jid: "201111744021@s.whatsapp.net" },
+    { name: "emam", lid: "50414477168824@lid", jid: "51664513925368@s.whatsapp.net" },
   // Owner 3
-    { name: "Sukuna", jid: "201111744021@s.whatsapp.net", lid: "201111744021@lid" },
+    { name: "Sukuna", jid: "201111744021@s.whatsapp.net", lid: "201033024135@lid" },
   // Owner 4 
-   { name: "عمورتي", jid: "201111744021@s.whatsapp.net", lid: "201111744021@lid" }
+   { name: "عمورتي", jid: "201050079089@s.whatsapp.net", lid: "201111744021@lid" }
   ],
   settings: { noWelcome: false },
   commandsPath: './plugins'
@@ -33,7 +33,7 @@ if (!global.db) {
 /* =========== Config ========== */
 const { config } = client;
 config.info = { 
-  nameBot: "♡ 𝙋𝙊𝙈𝙉𝙄 🎪 〈", 
+  nameBot: "♡ 𝗬𝗢𝗚𝗜 🎪 〈", 
   nameChannel: "𝐕𝐈𝐈7 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🕷️", 
   idChannel: "120363225356834044@newsletter",
   urls: {
